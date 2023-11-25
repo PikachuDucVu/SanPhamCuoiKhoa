@@ -8,4 +8,7 @@ searchInput.addEventListener("change", (event) => {
     `https://api.openweathermap.org/data/2.5/weather?q=${event.target.value}&appid=${API_KEY}&lang=vi&unit=metric`
   ).then((res) => res.json());
   console.log(data);
+  console.log("Hello World");
+  console.log("Hello World");
+  console.log("Hello World");
 });
